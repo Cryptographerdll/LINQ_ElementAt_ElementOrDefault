@@ -14,7 +14,7 @@ namespace LINQ_ElementAt_ElementOrDefault
                 "Banana", "Peer", "watermelon", "Pomme", "Orange", "Papoy"
             };
 
-            var Element = Fruits.ElementAt(2);
+            var Element = Fruits.ElementAt(2); // Watermelon 
             
             #comment => var Element = Fruits.ElementAtOrDefault(6); // Exception 
 
