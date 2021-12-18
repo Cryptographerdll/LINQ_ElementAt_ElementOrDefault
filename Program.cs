@@ -15,6 +15,8 @@ namespace LINQ_ElementAt_ElementOrDefault
             };
 
             var Element = Fruits.ElementAt(2);
+            
+            #comment => var Element = Fruits.ElementAtOrDefault(6); // Exception 
 
             Console.WriteLine(Element);
         }
